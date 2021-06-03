@@ -1,5 +1,5 @@
 library(readr)
-#replace R6801T1L02.TXT with your filename
+#replace R6801T1L03.TXT with your filename
 
 level3<- read_fwf(file="R6801T1L03.TXT", fwf_cols(round_code=c(1,3), fsu_no=c(4,8),round_no=c(9,10), schedule_no=c(11,13), sample_no=c(14,14), sector=c(15,15),
                                                   statecode=c(16,18), districtcode=c(19,20), stratum=c(21,22), substratum=c(23,24),scheduletype=c(25,25), subround=c(26,26),
