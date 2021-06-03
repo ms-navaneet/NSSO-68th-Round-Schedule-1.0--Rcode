@@ -11,7 +11,7 @@ level2<- read_fwf(file="R6801T1L02.TXT", fwf_cols(round_code=c(1,3), fsu_no=c(4,
                    col_types = cols(round_code=col_character(), fsu_no=col_character(),round_no=col_character(), schedule_no=col_character(), sample_no=col_character(), sector=col_character(),
                                                    statecode=col_character(), districtcode=col_character(), stratum=col_character(), substratum=col_character(),scheduletype=col_character(), subround=col_character(),
                                                    subsample=col_character(),FOD_subregion=col_character(), hamlet_subblock=col_character(), sec_stage_stratum=col_character(), sample_HH_no=col_character(), level=col_character(),
-                                                   filler=col_character(), HH_members=col_character(), HH_members=col_character(), NCO=col_character(), HH_type=col_character(), religion=col_character(), social_grp=col_character(), whether_land_own=col_character(),
+                                                   filler=col_character(), HH_members=col_character(), HH_members=col_character(),NIC=col_character(), NCO=col_character(), HH_type=col_character(), religion=col_character(), social_grp=col_character(), whether_land_own=col_character(),
                                                    type_land_owned=col_character(), land_owned=col_integer(), land_leased_in=col_integer(), land_neither=col_integer(), land_leased_out=col_integer(), land_total=col_integer(),
                                                    land_total_cultivated=col_integer(), land_irrigated=col_integer(),special_char=col_character(),blank=col_character(), nss=col_integer(), nsc=col_integer(), mlt=col_integer()))
 view(level2)
